@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>renderer opisu szkieletowego</title>
+		<meta name="description" content="projekt na zaliczenie przedmiotu Grafika Komputerowa Wykład. JŁ. BS." />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="loading" id="js-loader">
+			<img src="card.webp" class="load" alt="card to load">
+		</div>
+		<div class="wrapper">
+		    <!-- The canvas element is used to draw the 3D scene -->
+			<canvas id="canvas"></canvas>
+		</div>
+
+		<div class="button__wrapper">
+			<button class="skeletal">skeletal wireframe</button>
+			<button class="idle">Idle</button>
+			<button class="jump">jumping</button>
+			<button class="warmup">warming up</button>
+			<button class="dance">dancing</button>
+			<button class="waving">waving</button>
+			<button class="punching">punching</button>
+			<button class="kicking">kicking</button>
+		</div>
+
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js'></script>
+		<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/2666677/OrbitControls.js'></script>
+		<script src='https://cdn.jsdelivr.net/gh/mrdoob/Three.js@r92/examples/js/loaders/GLTFLoader.js'></script>
+
+		<script  src="js/script.js"></script>
+	</body>
+</html>
